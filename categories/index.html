@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Recipes - Very Easy Recipe</title>
+    <meta name="description" content="Browse all recipes at Very Easy Recipe. Simple Recipes Anyone Can Make">
+    <link rel="canonical" href="https://veryeasyrecipe.blog/categories/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #E67E22, #D35400); color: white; padding: 20px 0; }
+        .header-content { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+        .logo { font-size: 1.6em; font-weight: bold; display: flex; align-items: center; gap: 10px; text-decoration: none; color: white; }
+        nav ul { display: flex; list-style: none; gap: 25px; }
+        nav a { color: white; text-decoration: none; }
+        .page-hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1600') center/cover; color: white; padding: 80px 20px; text-align: center; }
+        .page-hero h1 { font-size: 2.5em; margin-bottom: 15px; }
+        .categories { padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
+        .category-section { margin-bottom: 60px; }
+        .category-section h2 { color: #E67E22; font-size: 1.8em; margin-bottom: 25px; padding-bottom: 10px; border-bottom: 3px solid #FEF5E7; }
+        .recipes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .recipe-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .recipe-card:hover { transform: translateY(-8px); }
+        .recipe-img { height: 180px; background: linear-gradient(135deg, #E67E22, #9B59B6); display: flex; align-items: center; justify-content: center; }
+        .recipe-img span { font-size: 4em; }
+        .recipe-content { padding: 20px; }
+        .recipe-content h3 { color: #2C3E50; margin-bottom: 8px; font-size: 1.2em; }
+        .recipe-meta { display: flex; gap: 15px; color: #888; font-size: 0.85em; margin-bottom: 12px; }
+        .recipe-btn { display: inline-block; background: #E67E22; color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; font-weight: 500; }
+        footer { background: #2C3E50; color: white; padding: 30px 20px; text-align: center; }
+        footer a { color: #bbb; text-decoration: none; margin: 0 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo"><span>✨</span> Very Easy Recipe</a>
+            <nav><ul><li><a href="/">Home</a></li><li><a href="/categories/">Recipes</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
+        </div>
+    </header>
+    <section class="page-hero"><h1>All Recipes</h1><p>Beginner-friendly recipes</p></section>
+    <div class="categories">
+        <section class="category-section" id="featured">
+            <h2>🌟 Featured Recipes</h2>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🍋</span></div>
+                    <div class="recipe-content">
+                        <h3>One-Pan Lemon Chicken</h3>
+                        <div class="recipe-meta"><span>⏱️ 35 min</span><span>👥 4 servings</span></div>
+                        <a href="/one-pan-lemon-chicken/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🍅</span></div>
+                    <div class="recipe-content">
+                        <h3>Simple Tomato Soup</h3>
+                        <div class="recipe-meta"><span>⏱️ 25 min</span><span>👥 4 servings</span></div>
+                        <a href="/simple-tomato-soup/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🥞</span></div>
+                    <div class="recipe-content">
+                        <h3>Easy Banana Pancakes</h3>
+                        <div class="recipe-meta"><span>⏱️ 15 min</span><span>👥 4 servings</span></div>
+                        <a href="/easy-banana-pancakes/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🧀</span></div>
+                    <div class="recipe-content">
+                        <h3>Basic Grilled Cheese</h3>
+                        <div class="recipe-meta"><span>⏱️ 10 min</span><span>👥 4 servings</span></div>
+                        <a href="/basic-grilled-cheese/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🍫</span></div>
+                    <div class="recipe-content">
+                        <h3>No-Bake Energy Balls</h3>
+                        <div class="recipe-meta"><span>⏱️ 15 min</span><span>👥 4 servings</span></div>
+                        <a href="/no-bake-energy-balls/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-img"><span>🍝</span></div>
+                    <div class="recipe-content">
+                        <h3>5-Ingredient Pasta</h3>
+                        <div class="recipe-meta"><span>⏱️ 20 min</span><span>👥 4 servings</span></div>
+                        <a href="/5-ingredient-pasta/" class="recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Very Easy Recipe. All rights reserved.</p>
+        <p style="margin-top: 15px;"><a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></p>
+    </footer>
+</body>
+</html>
