@@ -1,0 +1,9 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: ALLOW-FROM https://www.pinterest.com
+
+/recipes/*
+  X-Frame-Options: ALLOW-FROM https://www.pinterest.com
+
+/sitemap.xml
+  Content-Type: application/xml
